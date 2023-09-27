@@ -1,0 +1,26 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "npm:cron@3.0.0-beta.8": "npm:cron@3.0.0-beta.8"
+    },
+    "npm": {
+      "@types/luxon@3.3.2": {
+        "integrity": "sha512-l5cpE57br4BIjK+9BSkFBOsWtwv6J9bJpC7gdXIzZyI0vuKvNTk0wZZrkQxMGsUAuGW9+WMNWF2IJMD7br2yeQ==",
+        "dependencies": {}
+      },
+      "cron@3.0.0-beta.8": {
+        "integrity": "sha512-9M1b4md+3bePOYz3p1vrlyp4RaPloQWxCQ1VouD8uGHyL+zZKjIZk0dw99YKS3MpDH0VGBQXWbSGMieGXdo8qQ==",
+        "dependencies": {
+          "@types/luxon": "@types/luxon@3.3.2",
+          "luxon": "luxon@3.3.0"
+        }
+      },
+      "luxon@3.3.0": {
+        "integrity": "sha512-An0UCfG/rSiqtAIiBPO0Y9/zAnHUZxAMiCpTd5h2smgsj7GGmcenvrvww2cqNA8/4A5ZrD1gJpHN2mIHZQF+Mg==",
+        "dependencies": {}
+      }
+    }
+  },
+  "remote": {}
+}
